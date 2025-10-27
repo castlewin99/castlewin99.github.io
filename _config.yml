@@ -16,10 +16,10 @@ timezone:
 
 title: CastleWin99 # the main title
 
-tagline: DevOps 엔지니어를 향한 배움과 성장의 기록 # it will display as the subtitle
+tagline: DevOps 스터디 기록 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  DevOps 및 Cloud Engineer를 목표로 하는 기술 블로그입니다. AWS, Kubernetes, CI/CD 파이프라인 구축 등 클라우드 네이티브 기술의 학습 과정과 문제 해결 경험을 기록하고 공유합니다.
+  DevOps 기술 블로그입니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
