@@ -1,6 +1,6 @@
 ---
 title: "[First Project] 밑바닥부터 만드는 온프레미스 Kubernetes"
-date: 2025-11-30 22:10:00 +0900
+date: 2025-11-30 23:33:00 +0900
 categories: [DevOps, Project]
 tags: [kubernetes, istio, vagrant, side-project, on-premise]
 ---
@@ -77,4 +77,18 @@ tags: [kubernetes, istio, vagrant, side-project, on-premise]
 
 이 프로젝트는 아래 순서대로 진행하며, 각 단계별 트러블슈팅 과정을 블로그에 기록할 예정입니다.
 
-1. **Phase 1: 인프라 기초 공사**    
+1. **Phase 1: 인프라 기초 공사**
+   * Vagrant VM 프로비저닝 및 사설 네트워크(192.168.56.x) 고정.
+2. **Phase 2: 클러스터 구축**
+   * `kubeadm` 초기화, Calico CNI 설치, MetalLB 구성.
+3. **Phase 3: Service Mesh 도입 (High Difficulty)**
+   * Istio 설치, Ingress Gateway 구성, Prometheus/Kiali/Jaeger 연동.
+4. **Phase 4: 애플리케이션 개발**
+   * FastAPI + Gemini 연동, React 차트 구현, Dockerizing.
+5. **Phase 5: 운영 파이프라인 완성**
+   * ArgoCD 배포 자동화, 모니터링 대시보드 구성.
+
+---
+
+**Next Post:**
+다음 포스팅에서는 **Phase 1: Vagrant를 이용한 가상머신 프로비저닝**부터 시작합니다.
